@@ -1,0 +1,24 @@
+名称：BF Hyperledger Framework Dome
+
+on: [push, pull_request]
+
+jobs:
+  my_first_job:
+    name: IBM Hyperledger Fabric
+  my_second_job:
+    name: BF Hyperledger Framework SDK 
+     
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: BF Hyperledger Framework
+    - name: IBM Hyperledger Fabric SDA
+      run: Hello, A blocchain structured with Hyper ledger by Beifu, with an extra database system designed to avoid sole decentralized system that may lead to being out of control. 
+    - name: BF Hyperledger Framework
+      run: |
+        orderer0.example.com,peer0.org1.paybf.com,couchdb0,cli,ca_peerOrg1
+        orderer1.example.com,peer1.org1.paybf.com,cli
+        orderer2.example.com,peer2.org1.paybf.com,cli
+        orderer3.example.com,orderer4.paybf.com,peer3.org1.example.com,cli
