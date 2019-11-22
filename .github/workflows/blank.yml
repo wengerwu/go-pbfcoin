@@ -1,6 +1,6 @@
 名称：BF Hyperledger Framework Dome
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   my_first_job:
