@@ -1,0 +1,3 @@
+[submodule "cmd/mist/assets/ext/pbfcoin.js"]
+	path = cmd/mist/assets/ext/pbfcoin.js
+	url = https://github.com/pbfcoin/web3.js
