@@ -88,11 +88,11 @@ the accounts and populate the `alloc` field with their addresses.
 ```
 
 With the genesis state defined in the above JSON file, you'll need to initialize **every**
-`geth` node with it prior to starting it up to ensure all blockchain parameters are correctly
+`gpbf` node with it prior to starting it up to ensure all blockchain parameters are correctly
 set:
 
 ```shell
-$ geth init path/to/genesis.json
+$ gpbf init path/to/genesis.json
 ```
 
 #### Creating the rendezvous point
@@ -106,7 +106,7 @@ $ bootnode --genkey=boot.key
 $ bootnode --nodekey=boot.key
 ```
 
-With the bootnode online, it will display an [`enode` URL](https://github.com/ethereum/wiki/wiki/enode-url-format)
+With the bootnode online, it will display an [`enode` URL](https://github.com/pbfcoin/go-pbfcoin/wiki/Building-pbfcoin)
 that other nodes can use to connect to it and exchange peer information. Make sure to
 replace the displayed IP address information (most probably `[::]`) with your externally
 accessible IP to get the actual `enode` URL.
