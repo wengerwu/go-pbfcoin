@@ -1,6 +1,6 @@
-// Copyright 2015 The go-pbfcoin Authors
+// Copyright 2018 The go-pbfcoin Authors
 // This file is part of the go-pbfcoin library.
-//
+// Go-pbfcoin was modified based on Go-Ethereum. Official Golang implementation of the pbfcoin protocol.
 // The go-pbfcoin library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
